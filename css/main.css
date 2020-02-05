@@ -1,0 +1,44 @@
+@media only screen and (max-width: 667px) {
+
+html{
+height: 667px;
+overflow: hidden;
+}
+.bootsScrean{
+  background-image: linear-gradient( 180deg, #2036B2, #0E0D19);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bootScrean__welkom{
+color:white;
+font-family:Helvetica Neue;
+font-size:101px;
+}
+.bootScrean__text{
+  color:white;
+  font-family:Helvetica Neue;
+  font-size: 33px;
+  margin: 45px 20px 0px 30px;
+  width:328px;
+}
+
+
+
+.bootsScrean__Button{
+  margin:113px 91px 0px 74px;
+  height: 46px;
+  width:227px;
+  background-color: white;
+  display: flex;
+}
+.bootsScrean__Button--text{
+  font-size: 41px;
+margin-left: 25px;
+font-family:Helvetica Neue;
+}
+.bootsScrean__Button--picture{
+margin: 4.19px 6px 5.49px 13.3px;
+
+
+}
+}

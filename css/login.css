@@ -1,0 +1,114 @@
+@media only screen and (max-width: 667px) {
+
+html{
+  height: 667px;
+  overflow: hidden;
+
+}
+body{
+  height: 667px;
+  margin: 0;
+  overflow: hidden;
+display: grid;
+grid-template-rows: auto auto auto;
+height: 50em;
+}
+
+
+.circle{
+  background-image: linear-gradient( 180deg, #2036B2, #0E0D19);
+  width:528px;
+  height:135px;
+  border-radius:50%;
+  margin: -59px;
+
+
+}
+.header__text{
+  text-align: center;
+  margin: 10px 0px 0px 40px;
+  font-size: 35px;
+  height:40px;
+  width:279px;
+color: white;
+z-index: 2;
+position: absolute;
+}
+.footer{
+  position: fixed;
+
+  margin-top: 590px;
+display: inline-flex;
+  width:414px;
+  height: 80px;
+  background-color: #3F38B5;
+
+}
+.arrow{
+  margin: 1em auto;
+  display: block;
+  width: 48px;
+  height: 73px;
+}
+.circle__white{
+  background-color: white;
+  border-radius: 50%;
+  width: 175px;
+  height: 169px;
+  border: solid;
+  margin: -2em auto;
+/*  margin-left: -30px;*/
+/*margin-bottom: 10px;*/
+}
+.footer__gear{
+margin:7px 28px 5px 24px;
+}
+.footer__profile{
+  margin:5px 46px 5px  13px;
+
+}
+.login{
+  display: grid;
+  grid-template-rows:100px 100px auto;
+  border-radius: 5%;
+  border: solid;
+  height: 300px;
+  width:200px;
+  margin: 20%;
+  background-color: #3F38B5;
+}
+.user input, .submit input ,.pass input{
+  margin: 10%;
+border: solid;
+border-radius: 5%;
+border-width: thin;
+width:80%;
+height: 50%;
+font-size: 21px;
+}
+
+.user input{
+  width:80%;
+  height: 50%;
+
+}
+.userOne, .userTwo{
+  border:solid;
+  border-width:thin;
+  font-size: 39px;
+  display: flex;
+  width: 338px;
+  height:  82px;
+  margin: 17px;
+}
+.userOne__img , .userTwo__img{
+  height: 70px;
+  width: 70px;
+  margin: 6px;
+}
+.userOne__text , .userTwo__text{
+  height: 45px;
+  width: 231px;
+  margin: 19px;
+}
+}
